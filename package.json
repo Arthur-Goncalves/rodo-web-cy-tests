@@ -1,0 +1,28 @@
+{
+  "name": "rodo-web-cy-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "node --env-file=.env ./node_modules/cypress/bin/cypress open",
+    "cy:run": "node --env-file=.env ./node_modules/cypress/bin/cypress run",
+    "cy:headed": "node --env-file=.env ./node_modules/cypress/bin/cypress run --headed",
+    "test": "npm run cy:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur-Goncalves/rodo-web-cy-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Arthur-Goncalves/rodo-web-cy-tests/issues"
+  },
+  "homepage": "https://github.com/Arthur-Goncalves/rodo-web-cy-tests#readme",
+  "devDependencies": {
+    "@clerk/testing": "^2.3.9",
+    "cypress": "^15.21.2"
+  }
+}

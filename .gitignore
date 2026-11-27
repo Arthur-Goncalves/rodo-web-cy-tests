@@ -155,3 +155,9 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+
+# Cypress: artefatos com telas e dados do app privado
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
